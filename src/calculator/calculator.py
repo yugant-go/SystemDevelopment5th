@@ -73,10 +73,5 @@ class Calculator:
             ValueError: If b is zero
         """
         if b == 0:
-            raise ValueError("Cannot divide by zero")
+            raise InvalidInputException("Cannot divide by zero")
         return a / b
-
-
-
-
-
